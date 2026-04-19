@@ -119,10 +119,10 @@ portfolio-optimization
 ---
 
 ##  Key Highlights
-✔ Implements real-world financial theory  
-✔ Uses convex optimization (CVXPY)  
-✔ Works on real market data  
-✔ Visualizes efficient frontier  
+- Implements real-world financial theory  
+- Uses convex optimization (CVXPY)  
+- Works on real market data  
+- Visualizes efficient frontier  
 
 ---
 
