@@ -84,12 +84,19 @@ Subject to:
 - Yahoo Finance API  
 
 ---
+## Project Structure
 
-## 🔷 Project Structure
-
-
-
----
+```
+portfolio-optimization
+├── data
+├── src
+│   ├── data_loader.py
+│   ├── optimizer.py
+│   └── utils.py
+├── main.py
+├── requirements.txt
+└── README.md
+```
 
 ##  How to Run
 
