@@ -12,8 +12,9 @@ def optimize_portfolio(returns):
     portfolio_return = mu @ w
     portfolio_risk = cp.quad_form(w, Sigma)
 
-    objective = cp.Maximize(portfolio_return - 0.5 * portfolio_risk)
+    risk_aversion = 0.1  # adjust this
 
+    objective = cp.Maximize(portfolio_return - risk_aversion * portfolio_risk)
     constraints = [
         cp.sum(w) == 1,
         w >= 0
